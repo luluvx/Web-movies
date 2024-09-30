@@ -1,0 +1,20 @@
+.person-checkbox-card {
+    display: flex; 
+    align-items: center; 
+    background-color: #28282a;
+    color: white;
+   
+}
+.person-checkbox-card.form-check{
+    display: flex;
+    align-items: center;
+    background-color: #28282a;
+    color: white;
+    padding: 30px 30px 30px 50px ;
+    border-radius: 10px;
+    font-family: 'Jost-Medium';
+}
+
+.form-check-input {
+    margin-right: 10px;
+}

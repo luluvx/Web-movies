@@ -1,0 +1,108 @@
+.detail-movie{
+    margin: 50px 0;
+    text-align: left;
+}
+.movie-title{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    font-family: 'AvantGarde';
+}
+.rating{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.rating span{
+    margin-right: 10px;
+
+}
+.movie-sinopsis{
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Jost-Regular', sans-serif;
+    font-weight: 100;
+}
+.movie-info{
+    font-size: 16px;
+    color: rgba(234, 229, 229, 0.537);
+    font-family: 'Jost-Regular', sans-serif;
+    font-weight: 100;
+}
+.title-cast{
+    font-size: 23px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.441);
+    margin-bottom: 20px;
+    font-family: 'AvantGarde';
+    text-align: left;
+    padding-left: 10px;
+}
+.card-cast{
+    max-width: 150px;
+    max-height: 290px; 
+    margin: 0 auto;
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.imgPhoto{
+    width: 100%;
+    height: 170px; 
+    object-fit: cover;
+    border-radius: 6px ; 
+}
+.modal-trailer{
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+
+}
+.card-img-top.imgPhoto{
+
+    border-radius: 6px ; 
+}
+.card-img-top.imgPhoto:hover{
+    cursor: pointer;
+    transform:  scale(1.05);
+    transition: all 0.5s ease 0s;
+}
+
+
+.modal-trailer .modal-header, 
+.modal-trailer .modal-footer {
+    background-color: #1b1a1a;
+    border: none;
+
+}
+.modal-trailer .modal-header {
+    color: white;
+    font-size: 30px;
+    font-family: 'AvantGarde';
+}
+.modal-trailer .modal-content{
+    height: 600px;
+    border-radius:  20px;
+    background-color: #1b1a1a;
+    color: rgb(250, 242, 242);
+
+}
+
+.modal-trailer .modal-dialog {
+    max-width: 70%; 
+    width: 80%;  
+ 
+}
+.movie-poster-right{
+
+    margin: 0 auto;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 20px;
+    width: 70%;
+
+}

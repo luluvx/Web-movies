@@ -1,0 +1,54 @@
+.banner{
+  background-color: #313234;
+  height: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 60px;
+}
+.container-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px; 
+
+}
+
+.card-person{
+  max-width: 200px;
+  max-height: 290px; 
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #28282a;
+  color: white;
+  border-radius: 10px;
+
+}
+
+.card-body {
+  padding: 0;
+
+}
+.card-title{
+  font-size: 12px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+
+.imgPhoto {
+  width: 100%;
+  height: 150px; 
+  object-fit: cover;
+  border-radius: 10px; 
+}
+
+
+
+
+
